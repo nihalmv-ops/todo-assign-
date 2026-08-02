@@ -1,0 +1,53 @@
+body{
+
+     background: whitesmoke;
+
+
+
+}
+
+.card{
+
+    border:none;
+
+    border-radius:15px;
+
+}
+
+#taskInput{
+
+    height:50px;
+
+}
+
+.list-group-item{
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.list-group-item:hover{
+
+    background:#f1f1f1;
+
+}
+
+.completed{
+
+    text-decoration:line-through;
+
+    color:gray;
+
+}
+
+@media(max-width:768px){
+
+    .card{
+
+        margin:20px;
+
+    }
+
+}
