@@ -1,8 +1,10 @@
 body{
 
-     background: whitesmoke;
+    background:linear-gradient(135deg,#b77eb6,#000e0f);
 
+    font-family:Arial, Helvetica, sans-serif;
 
+    min-height:100vh;
 
 }
 
@@ -10,7 +12,17 @@ body{
 
     border:none;
 
-    border-radius:15px;
+    border-radius:20px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.2);
+
+}
+
+.card h2{
+
+    color:#340134;
+
+    font-weight:bold;
 
 }
 
@@ -18,11 +30,35 @@ body{
 
     height:50px;
 
+    border-radius:10px;
+
+}
+
+.btn{
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 8px 15px rgba(0,0,0,.2);
+
 }
 
 .list-group-item{
 
-    cursor:pointer;
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:10px;
+
+    border-radius:10px;
 
     transition:.3s;
 
@@ -30,7 +66,7 @@ body{
 
 .list-group-item:hover{
 
-    background:#f1f1f1;
+    background:#f8f9fa;
 
 }
 
@@ -46,7 +82,27 @@ body{
 
     .card{
 
-        margin:20px;
+        margin:15px;
+
+    }
+
+    .input-group{
+
+        flex-direction:column;
+
+    }
+
+    .input-group button{
+
+        width:100%;
+
+        margin-top:10px;
+
+    }
+
+    #deleteTask{
+
+        width:100%;
 
     }
 
